@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAL FITNESS GYM</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        /* css reset */
+        body{
+            font-family: 'Balsamiq Sans', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("img/bg.jpg");
+        }
+        .left{
+               text-align: center;
+                display: inline-block;
+                position: absolute;
+                left: 34px;
+                top: 20px;
+                /* border: 2px solid red; */
+        }
+        .left img{
+
+            width: 120px;
+            
+        
+        }
+       
+        
+        .mid{
+            display: block;
+            width: 35%;
+            margin: 20px 525px;
+            /* border: 2px solid rgb(0, 255, 30); */
+        }
+        .right{
+            display: inline-block;
+            position:absolute;
+            right:34px;
+            top: 20px;
+            /* border: 2px solid rgb(0, 204, 255); */
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .navbar li a{
+
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+        .navbar li a:hover , .navbar li a:active{
+
+            text-decoration: underline;
+            color: gray;
+                
+        }
+        .btn{
+                
+                font-family: 'Balsamiq Sans', cursive;
+                background-color: black;
+                color: whitesmoke;
+                margin: 3px 5px;
+                padding: 2px 4px;
+                border-radius: 10px;
+                font-size: 14px;
+                cursor: pointer;
+
+        }
+        .btn:hover{
+
+            background-color: gray;
+        }
+        .container{
+            /* border: 2px solid yellow; */
+            margin: 180px 900px;
+            padding: 5px 20px;
+            width: 25%;
+            border-radius: 2px;
+            
+
+        }
+        .form-group input{
+            border-radius: 10px;
+            font-family: 'Balsamiq Sans', cursive;
+            margin: 5px;
+            text-align: center;
+            padding: 2px;
+            width: 90%;
+            color: black;
+        
+            
+
+        }
+
+        .container h2{
+            text-align: center;
+        }
+        .container button{
+
+            display: block;
+            margin:  5px auto;
+            width: 23%;
+        }
+     
+            
+
+        
+
+        
+    </style>
+</head>
+<body>
+        <header class="header">
+
+            <!-- this is for logo -->
+            <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>DUBMLE BELL GYM</div>
+            </div>
+            <!-- this is for nav bar -->
+            <div class="mid">
+
+                <ul class="navbar">
+
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="#">Contact us</a></li>
+
+
+
+                </ul>
+                
+            </div>
+            <!-- this is for buttons -->
+            <div class="right">
+                <button class="btn">contact us</button>
+                <button class="btn">email us</button>
+
+            </div>
+
+
+
+
+        </header>
+
+        <div class="container">
+
+        <h2>join the best gym in delhi/NCR</h2>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter the Name">
+            <input type="text" name="" placeholder="Enter ur Age">
+            <input type="text" name="" placeholder="Enter ur  Gender">
+            <input type="text" name="" placeholder="Enter ur Locality">
+            <input type="text" name="" placeholder="Enter ur Contact Number">
+            
+            
+            <button class="btn">Submit</button>
+
+        </div>
+        </div>
+
+
+    
+</body>
+</html>
